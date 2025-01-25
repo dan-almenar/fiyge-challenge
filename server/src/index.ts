@@ -15,6 +15,7 @@ app.use(express.json());
 
 /* ROUTES */
 app.get('/api/forms/list', (req, res, next) => {
+	console.log(`Reeived Request:\nTimestamp: ${new Date().toISOString()}`);
 	console.log(req.headers);
 	res.send('Hello World');
 	next();
