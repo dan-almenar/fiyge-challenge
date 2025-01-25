@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2",
-    "sqlite3": "^5.1.7"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
