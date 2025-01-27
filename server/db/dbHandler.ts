@@ -145,6 +145,7 @@ const propagateDBErr = (err: Error): void => {
 	throw err;
 };
 
+/* SUPPORT FUNCTIONS */
 const tableExists = async(tableName: string): Promise<boolean> => {
 	try {
 		const result = await runQuery(
